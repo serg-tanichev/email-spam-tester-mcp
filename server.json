@@ -1,0 +1,16 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-07-09/server.schema.json",
+  "name": "io.github.serg-tanichev/email-spam-tester",
+  "description": "Email deliverability testing for agents: reserve a disposable address, send a real message to it, read 41 checks with RFC citations and a fix plan.",
+  "version": "1.0.0",
+  "repository": {
+    "url": "https://github.com/serg-tanichev/email-spam-tester-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://email-spam-tester.com/mcp"
+    }
+  ]
+}
