@@ -60,6 +60,12 @@ claude mcp add --transport http email-spam-tester https://email-spam-tester.com/
 
 The same instructions, written for an agent to read before it starts, are in [SKILL.md](https://email-spam-tester.com/skill/SKILL.md), and in the project repository [serg-tanichev/email-spam-tester](https://github.com/serg-tanichev/email-spam-tester).
 
+## Where it is listed
+
+- [MCP Registry](https://registry.modelcontextprotocol.io/v0/servers?search=io.github.serg-tanichev/email-spam-tester), the official one, as `io.github.serg-tanichev/email-spam-tester`
+- [Smithery](https://smithery.ai/servers/tanichev/email-spam-tester) [![Smithery](https://smithery.ai/badge/tanichev/email-spam-tester)](https://smithery.ai/servers/tanichev/email-spam-tester)
+- [Glama](https://glama.ai/mcp/connectors/io.github.serg-tanichev/email-spam-tester)
+
 ## Files
 
 - `claude-desktop.json`: a complete Claude Desktop configuration with the server added.
