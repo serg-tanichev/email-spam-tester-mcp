@@ -63,7 +63,7 @@ The same instructions, written for an agent to read before it starts, are in [SK
 ## Where it is listed
 
 - [MCP Registry](https://registry.modelcontextprotocol.io/v0/servers?search=io.github.serg-tanichev/email-spam-tester), the official one, as `io.github.serg-tanichev/email-spam-tester`
-- [Smithery](https://smithery.ai/servers/tanichev/email-spam-tester) [![Smithery](https://smithery.ai/badge/tanichev/email-spam-tester)](https://smithery.ai/servers/tanichev/email-spam-tester)
+- [Smithery](https://smithery.ai/servers/tanichev/email-spam-tester)
 - [Glama](https://glama.ai/mcp/connectors/io.github.serg-tanichev/email-spam-tester)
 
 ## Files
