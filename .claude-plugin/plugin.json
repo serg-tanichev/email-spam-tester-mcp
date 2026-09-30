@@ -19,5 +19,7 @@
     "dkim",
     "dmarc",
     "inbox-placement"
-  ]
+  ],
+  "privacyPolicyUrl": "https://email-spam-tester.com/privacy/",
+  "icon": "./.claude-plugin/icon.svg"
 }

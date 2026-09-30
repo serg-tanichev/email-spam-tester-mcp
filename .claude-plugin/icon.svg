@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 64 64" role="img" aria-label="Email Spam Tester">
+  <rect width="64" height="64" rx="14" fill="#143d2e"/>
+  <g fill="#ffffff" stroke="#143d2e" stroke-width="3">
+    <ellipse cx="13" cy="20" rx="12" ry="6" transform="rotate(-32 13 20)"/>
+    <ellipse cx="51" cy="20" rx="12" ry="6" transform="rotate(32 51 20)"/>
+  </g>
+  <rect x="15" y="19" width="34" height="28" rx="6" fill="#ffffff" stroke="#143d2e" stroke-width="3"/>
+  <path d="M17.5 21.5 L32 33.5 L46.5 21.5 Z" fill="#143d2e"/>
+</svg>
