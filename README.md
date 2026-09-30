@@ -18,7 +18,7 @@ The service exposes an MCP server at `https://email-spam-tester.com/mcp` over st
 
 `get_report` also returns provider placement so far, when the test asked for it.
 
-In ChatGPT there is more, because ChatGPT tells the server which of its users is asking. Permanent mailboxes collect a series of letters (a welcome sequence, a newsletter) and check every one: `open_series_mailbox(domain)`, `list_series_mailboxes()`, `get_series_letters(mailbox_id)`, `write_fix_plan(slug)` and `close_series_mailbox(mailbox_id)`. Other clients get a short error from these and the rest works as before. Every tool also returns structured content for an MCP Apps card (`ui://widget/email-spam-tester-v2.html`): the address with copy buttons that turns into the report when the mail lands. Clients that draw no card read the same result as text.
+In ChatGPT there is more, because ChatGPT tells the server which of its users is asking. Permanent mailboxes collect a series of letters (a welcome sequence, a newsletter) and check every one: `open_series_mailbox(domain)`, `list_series_mailboxes()`, `get_series_letters(mailbox_id)`, `write_fix_plan(slug)` and `close_series_mailbox(mailbox_id)`. Other clients get a short error from these and the rest works as before. Every tool also returns structured content for an MCP Apps card (`ui://widget/email-spam-tester-v3.html`): the address with copy buttons that turns into the report when the mail lands. Clients that draw no card read the same result as text.
 
 The agent's job in between is to send a real message to the address, from the platform that will send the campaign. Half the checks read headers the sending platform adds, so a copy sent from a laptop says little about it.
 
