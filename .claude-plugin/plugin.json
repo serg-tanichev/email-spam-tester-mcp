@@ -1,0 +1,23 @@
+{
+  "name": "email-spam-tester",
+  "displayName": "Email Spam Tester",
+  "version": "1.0.0",
+  "description": "Check an email before it goes out: a disposable test address, 42 technical checks (SPF, DKIM, DMARC, reverse DNS, TLS, blocklists, content, bulk-sender rules) with a fix plan, and the folder the message lands in at different mailbox providers.",
+  "author": {
+    "name": "Serhii Tanichev",
+    "email": "tanichev@email-spam-tester.com",
+    "url": "https://email-spam-tester.com/about/"
+  },
+  "homepage": "https://email-spam-tester.com/",
+  "repository": "https://github.com/serg-tanichev/email-spam-tester-mcp",
+  "license": "MIT",
+  "keywords": [
+    "email",
+    "deliverability",
+    "spam",
+    "spf",
+    "dkim",
+    "dmarc",
+    "inbox-placement"
+  ]
+}

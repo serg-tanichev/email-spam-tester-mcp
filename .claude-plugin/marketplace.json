@@ -1,0 +1,18 @@
+{
+  "name": "email-spam-tester",
+  "owner": {
+    "name": "Serhii Tanichev",
+    "email": "tanichev@email-spam-tester.com",
+    "url": "https://email-spam-tester.com/about/"
+  },
+  "plugins": [
+    {
+      "name": "email-spam-tester",
+      "source": "./",
+      "description": "Check an email before it goes out: a disposable test address, 42 technical checks (SPF, DKIM, DMARC, reverse DNS, TLS, blocklists, content, bulk-sender rules) with a fix plan, and the folder the message lands in at different mailbox providers."
+    }
+  ],
+  "metadata": {
+    "description": "Email Spam Tester for Claude: check an email for deliverability problems before it goes out."
+  }
+}

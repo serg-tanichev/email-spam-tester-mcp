@@ -22,6 +22,17 @@ In ChatGPT there is more, because ChatGPT tells the server which of its users is
 
 The agent's job in between is to send a real message to the address, from the platform that will send the campaign. Half the checks read headers the sending platform adds, so a copy sent from a laptop says little about it.
 
+## Claude plugin
+
+This repository is also a Claude plugin and its own marketplace. In Claude Code:
+
+```bash
+/plugin marketplace add serg-tanichev/email-spam-tester-mcp
+/plugin install email-spam-tester@email-spam-tester
+```
+
+The plugin is two things and nothing else. `.mcp.json` connects Claude to the remote server at `https://email-spam-tester.com/mcp`, and `skills/email-spam-tester/SKILL.md` tells Claude how to run a test: reserve an address, have the real message sent to it, wait for the report, fix, test again. There is no local code, no hook and no script. What leaves your machine is what the tools send to that server (a report slug, a language code, whether you asked for provider placement), and the email you choose to send to the test address. What the service keeps, and for how long, is in the [privacy policy](https://email-spam-tester.com/privacy/).
+
 ## Claude Desktop
 
 Add the server to `claude_desktop_config.json` (see [claude-desktop.json](claude-desktop.json) for the whole file):
