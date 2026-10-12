@@ -1,7 +1,7 @@
 {
   "name": "email-spam-tester",
   "displayName": "Email Spam Tester",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Check an email before it goes out: a disposable test address, 42 technical checks (SPF, DKIM, DMARC, reverse DNS, TLS, blocklists, content, bulk-sender rules) with a fix plan, and the folder the message lands in at different mailbox providers.",
   "author": {
     "name": "Serhii Tanichev",
@@ -19,5 +19,9 @@
     "dkim",
     "dmarc",
     "inbox-placement"
-  ]
+  ],
+  "documentationUrl": "https://email-spam-tester.com/skill/",
+  "supportUrl": "https://email-spam-tester.com/contact/",
+  "privacyPolicyUrl": "https://email-spam-tester.com/privacy/",
+  "termsOfServiceUrl": "https://email-spam-tester.com/terms/"
 }
